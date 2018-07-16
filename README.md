@@ -1,3 +1,9 @@
+# UNMAINTAINED
+
+This project is no longer being maintained and is now read-only (archived). Use [microk8s](https://snapcraft.io/microk8s) for a much lighter, faster development kubernetes in-a-snap.
+
+---
+
 # minikube snap packaging
 
 This project builds a [snap](http://snapcraft.io/) package of
