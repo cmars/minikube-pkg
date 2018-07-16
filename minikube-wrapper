@@ -1,6 +1,9 @@
-#!/bin/bash -e
+#!/bin/bash
+
+set -euo pipefail
 
 export PATH=${SNAP}/bin:$PATH
+export HOME=${SNAP_USER_COMMON}
 
 # Prevents confined execution from failing due to inaccessible SSH agent socket.
 unset SSH_AUTH_SOCK
